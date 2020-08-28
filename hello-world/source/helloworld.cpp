@@ -4,7 +4,6 @@
 napi_value Hello(napi_env env)
 {
   napi_value greeting;
-
   napi_status status = napi_create_string_utf8(env, "hello world", NAPI_AUTO_LENGTH, &greeting);
   if (status != napi_ok)
     return nullptr;
@@ -27,7 +26,7 @@ napi_value init(napi_env env, napi_value exports)
   napi_status status;
   napi_value fn;
 
-  status = napi_create_function(env, nullptr, 0, Method, nullptr, &fn);
+  status = napi_create_function(env, nullptr, 1, Method, nullptr, &fn);
   if (status != napi_ok)
     return nullptr;
 
@@ -37,5 +36,4 @@ napi_value init(napi_env env, napi_value exports)
   return exports;
 }
 
-// NAPI_MODULE(NODE_GYP_MODULE_NAME, init)
 NAPI_MODULE(NODE_GYP_MODULE_NAME, init)
