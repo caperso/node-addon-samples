@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-binding@^3.0.3:
-  version "3.0.3"
-  resolved "https://registry.npm.taobao.org/binding/download/binding-3.0.3.tgz#65cd3a5c992102b946cdc1e3d04228ea07f8466d"
-  integrity sha1-Zc06XJkhArlGzcHj0EIo6gf4Rm0=
-
 bindings@^1.5.0:
   version "1.5.0"
   resolved "https://registry.npm.taobao.org/bindings/download/bindings-1.5.0.tgz#10353c9e945334bc0511a6d90b38fbc7c9c504df"

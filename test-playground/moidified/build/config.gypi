@@ -76,25 +76,6 @@
     "want_separate_host_toolset": 0,
     "nodedir": "C:\\Users\\caper\\AppData\\Local\\node-gyp\\Cache\\12.18.2",
     "standalone_static_library": 1,
-    "msbuild_path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe",
-    "bin_links": "true",
-    "disturl": "https://npm.taobao.org/dist",
-    "electron_mirror": "https://npm.taobao.org/mirrors/electron/",
-    "ELECTRON_MIRROR": "https://npm.taobao.org/mirrors/electron/",
-    "home": "https://npm.taobao.org",
-    "ignore_optional": "",
-    "ignore_scripts": "",
-    "init_license": "MIT",
-    "init_version": "1.0.0",
-    "registry": "https://registry.npm.taobao.org",
-    "sass_binary_site": "https://npm.taobao.org/mirrors/node-sass/",
-    "save_prefix": "^",
-    "strict_ssl": "true",
-    "user_agent": "yarn/1.22.4 npm/? node/v12.18.2 win32 x64",
-    "version_commit_hooks": "true",
-    "version_git_message": "v%s",
-    "version_git_sign": "",
-    "version_git_tag": "true",
-    "version_tag_prefix": "v"
+    "msbuild_path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe"
   }
 }
