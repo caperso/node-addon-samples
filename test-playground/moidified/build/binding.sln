@@ -1,6 +1,29 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "addon", "addon.vcxproj", "{7AE5F6EB-B4EC-38CE-E552-F57E3B043E64}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9B5ED48F-B67C-A3FE-A822-CD6CA286D4AD} = {9B5ED48F-B67C-A3FE-A822-CD6CA286D4AD}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nothing", "..\node_modules\node-addon-api\nothing.vcxproj", "{9B5ED48F-B67C-A3FE-A822-CD6CA286D4AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(Users)", "..\Users", "{83FD2216-DE8C-3729-D4EA-3618B14F3F2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(caper)", "..\Users\caper", "{D65485C4-96DC-B794-4A65-C384360B8308}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(Desktop)", "..\Users\caper\Desktop", "{62A0BCA9-DB15-4265-7364-AD56922B1AED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(code)", "..\Users\caper\Desktop\code", "{B9749895-DFE4-CF42-9558-E7936B713DC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node-addon-samples)", "..\Users\caper\Desktop\code\node-addon-samples", "{3AF8406D-975F-A3D4-1397-696664C64888}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(test-playground)", "..\Users\caper\Desktop\code\node-addon-samples\test-playground", "{2E79F324-6C2B-A5E9-1C1E-95AD75671EB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(moidified)", "..\Users\caper\Desktop\code\node-addon-samples\test-playground\moidified", "{FE1079BC-C170-E76B-D024-80CAB0515E60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node_modules)", "..\Users\caper\Desktop\code\node-addon-samples\test-playground\moidified\node_modules", "{D716D68A-B6C4-246D-4C89-D1425216D5C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node-addon-api)", "..\Users\caper\Desktop\code\node-addon-samples\test-playground\moidified\node_modules\node-addon-api", "{09BC4D7C-30B7-1A8D-6CD5-89AC0547D7A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,8 +35,23 @@ Global
 		{7AE5F6EB-B4EC-38CE-E552-F57E3B043E64}.Debug|x64.Build.0 = Debug|x64
 		{7AE5F6EB-B4EC-38CE-E552-F57E3B043E64}.Release|x64.ActiveCfg = Release|x64
 		{7AE5F6EB-B4EC-38CE-E552-F57E3B043E64}.Release|x64.Build.0 = Release|x64
+		{9B5ED48F-B67C-A3FE-A822-CD6CA286D4AD}.Debug|x64.ActiveCfg = Debug|x64
+		{9B5ED48F-B67C-A3FE-A822-CD6CA286D4AD}.Debug|x64.Build.0 = Debug|x64
+		{9B5ED48F-B67C-A3FE-A822-CD6CA286D4AD}.Release|x64.ActiveCfg = Release|x64
+		{9B5ED48F-B67C-A3FE-A822-CD6CA286D4AD}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D65485C4-96DC-B794-4A65-C384360B8308} = {83FD2216-DE8C-3729-D4EA-3618B14F3F2D}
+		{62A0BCA9-DB15-4265-7364-AD56922B1AED} = {D65485C4-96DC-B794-4A65-C384360B8308}
+		{B9749895-DFE4-CF42-9558-E7936B713DC1} = {62A0BCA9-DB15-4265-7364-AD56922B1AED}
+		{3AF8406D-975F-A3D4-1397-696664C64888} = {B9749895-DFE4-CF42-9558-E7936B713DC1}
+		{2E79F324-6C2B-A5E9-1C1E-95AD75671EB9} = {3AF8406D-975F-A3D4-1397-696664C64888}
+		{FE1079BC-C170-E76B-D024-80CAB0515E60} = {2E79F324-6C2B-A5E9-1C1E-95AD75671EB9}
+		{D716D68A-B6C4-246D-4C89-D1425216D5C3} = {FE1079BC-C170-E76B-D024-80CAB0515E60}
+		{09BC4D7C-30B7-1A8D-6CD5-89AC0547D7A9} = {D716D68A-B6C4-246D-4C89-D1425216D5C3}
+		{9B5ED48F-B67C-A3FE-A822-CD6CA286D4AD} = {09BC4D7C-30B7-1A8D-6CD5-89AC0547D7A9}
 	EndGlobalSection
 EndGlobal

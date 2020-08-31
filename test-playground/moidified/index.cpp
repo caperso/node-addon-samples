@@ -1,5 +1,6 @@
 #include <napi.h>
 #include "blade_function.h"
+#include <string>
 
 // 测试：输入输出均为字符串格式
 Napi::String Test_string(const Napi::CallbackInfo& info)

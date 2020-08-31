@@ -48,5 +48,13 @@
     <None Include="..\binding.gyp">
       <Filter>..</Filter>
     </None>
+    <ClCompile Include="..\blade_function.cpp">
+      <Filter>..</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\blade_function.h">
+      <Filter>..</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

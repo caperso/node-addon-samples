@@ -1,8 +1,9 @@
-﻿#ifndef _BLADE_FUNCTION_H
-#define  _BLADE_FUNCTION_H
+﻿#ifndef BLADE_FUNCTION
+#define BLADE_FUNCTION
+
 #include <iostream>
-std::string blade_function_parent(std::string imageParent);
-std::string blade_function_filestr(std::string imageFilesStr);
+#include <string>
 std::string test_demo_string(std::string inputString);
 double test_demo_int(double inputNum);
-#endif
+
+#endif // !BLADE_FUNCTION
