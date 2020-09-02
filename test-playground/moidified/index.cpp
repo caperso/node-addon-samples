@@ -6,7 +6,6 @@
 Napi::String Test_string(const Napi::CallbackInfo& info)
 {
 	Napi::Env env = info.Env();
-
 	std::string inString = info[0].As<Napi::String>();
 	std::string result = test_demo_string(inString);
 
