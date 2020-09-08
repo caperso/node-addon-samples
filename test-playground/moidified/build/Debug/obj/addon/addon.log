@@ -1,0 +1,9 @@
+﻿  blade_function.cpp
+  index.cpp
+  win_delay_load_hook.cc
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
+    正在创建库 C:\Users\caper\Desktop\code\node-addon-samples\test-playground\moidified\build\Debug\addon.lib 和对象 C:\Users\caper\Desktop\code\node-addon-samples\test-playground\moidified\build\Debug\addon.exp
+  正在生成代码
+  Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+  已完成代码的生成
+  addon.vcxproj -> C:\Users\caper\Desktop\code\node-addon-samples\test-playground\moidified\build\Debug\\addon.node
